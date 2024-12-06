@@ -6,28 +6,16 @@
 
 
     <EditText
-        android:id="@+id/UCH"
+        android:id="@+id/Zperp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Напруга" />
+        android:hint="Зпер. п" />
 
     <EditText
-        android:id="@+id/SK"
+        android:id="@+id/Zpera"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Sk" />
-
-    <EditText
-        android:id="@+id/UK"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Uk%" />
-
-    <EditText
-        android:id="@+id/SHOMT"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="S ном т" />
+        android:hint="Зпер. а" />
 
     <Button
         android:id="@+id/calculate"

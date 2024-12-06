@@ -1,56 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
 
-    <EditText
-        android:id="@+id/Unom"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="напруга" />
+        android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/Ik"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Ik" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-    <EditText
-        android:id="@+id/tf"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="tф" />
+            <TextView
+                android:id="@+id/a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Одноколова коло:" />
 
-    <EditText
-        android:id="@+id/TP"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="ТП" />
+            <EditText
+                android:id="@+id/Vymykacz_napruga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Напруга вимикача" />
 
-    <EditText
-        android:id="@+id/SM"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="SM" />
+            <EditText
+                android:id="@+id/PL_napruga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Напруга" />
 
-    <EditText
-        android:id="@+id/TM"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="TM" />
+            <EditText
+                android:id="@+id/Vymykacz_dowrzyna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Довжина" />
 
-    <Button
-        android:id="@+id/calculate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Обчислити" />
+            <EditText
+                android:id="@+id/TP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Трансформаторова напруга" />
 
-    <TextView
-        android:id="@+id/result"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="" />
+            <EditText
+                android:id="@+id/vvid_vymykacz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Вимикач ввідний" />
+
+            <EditText
+                android:id="@+id/pryjednanja_kilkist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Кількість приєднань" />
+
+            <EditText
+                android:id="@+id/pryjednanja_napruga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Напруга приєднань" />
+
+            <TextView
+                android:id="@+id/a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Двоколова перше коло:" />
+
+            <EditText
+                android:id="@+id/Vymykacz_napruga1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Напруга вимикача" />
+
+            <EditText
+                android:id="@+id/PL_napruga1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Напруга" />
+
+            <EditText
+                android:id="@+id/Vymykacz_dowrzyna1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Довжина" />
+
+            <EditText
+                android:id="@+id/TP1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Трансформаторова напруга" />
+
+            <EditText
+                android:id="@+id/vvid_vymykacz1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Вимикач ввідний" />
+
+            <EditText
+                android:id="@+id/pryjednanja_kilkist1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Кількість приєднань" />
+
+            <EditText
+                android:id="@+id/pryjednanja_napruga1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Напруга приєднань" />
+
+            <TextView
+                android:id="@+id/a2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Двоколова друге коло:" />
+
+            <EditText
+                android:id="@+id/Vymykacz_napruga2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Напруга вимикача" />
+
+            <EditText
+                android:id="@+id/PL_napruga2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Напруга" />
+
+            <EditText
+                android:id="@+id/Vymykacz_dowrzyna2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Довжина" />
+
+            <EditText
+                android:id="@+id/TP2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Трансформаторова напруга" />
+
+            <EditText
+                android:id="@+id/vvid_vymykacz2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Вимикач ввідний" />
+
+            <EditText
+                android:id="@+id/pryjednanja_kilkist2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Кількість приєднань" />
+
+            <EditText
+                android:id="@+id/pryjednanja_napruga2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Напруга приєднань" />
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <Button
+                android:id="@+id/calculate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Обчислити" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
 
 </LinearLayout>
